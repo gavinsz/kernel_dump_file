@@ -131,7 +131,7 @@ int udp_sent_data(u8 *message, size_t len)
     return error;
 }
 
-int udp_sent_pkt(u8 *data, size_t len)
+int dump_data(u8 *data, size_t len)
 {
     static unsigned int seq = 0;
     unsigned int pos = 0;

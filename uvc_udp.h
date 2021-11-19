@@ -23,7 +23,7 @@ struct pkt {
 //__attribute__((packed));
 
 void create_upd_sock(void);
-int udp_sent_pkt(u8 *data, size_t len);
+int dump_data(u8 *data, size_t len);
 int udp_sent_data(u8 *message, size_t len);
 
 int file_write(struct file* file, unsigned long long offset, unsigned char* data, unsigned int size);
